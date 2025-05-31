@@ -1,0 +1,206 @@
+Mono path[0] = 'C:/Users/Administrator/Downloads/Dinkum.v1.0.2_LinkNeverDie.Com/Dinkum.v1.0.2_LinkNeverDie.Com/Dinkum_Data/Managed'
+Mono config path = 'C:/Users/Administrator/Downloads/Dinkum.v1.0.2_LinkNeverDie.Com/Dinkum.v1.0.2_LinkNeverDie.Com/MonoBleedingEdge/etc'
+Initialize engine version: 2020.3.48f1 (b805b124c6b7)
+[Subsystems] Discovering subsystems at path C:/Users/Administrator/Downloads/Dinkum.v1.0.2_LinkNeverDie.Com/Dinkum.v1.0.2_LinkNeverDie.Com/Dinkum_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   
+    VRAM:     12115 MB
+    Driver:   32.0.15.7283
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.069 seconds
+<RI> Initializing input.
+New input system (experimental) initialized
+Using XInput
+<RI> Input initialized.
+<RI> Initialized touch support.
+Couldn't create a Convex Mesh from source mesh "SnowBall_Half" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
+Couldn't create a Convex Mesh from source mesh "SnowBall_OtherHalf" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh.
+UnloadTime: 3.643800 ms
+Language being set from OS to English
+Starting server [SteamSockets].
+Server started listening
+Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (VoiceChatSource).
+Save file not found. Cannot read seed.
+"SetDestination" can only be called on an active agent that has been placed on a NavMesh.
+RenderTexture's (512 x 512) anti-aliasing changed from 3 to 2 due hardware limitations.
+RenderTexture's (512 x 512) anti-aliasing changed from 3 to 2 due hardware limitations.
+"ResetPath" can only be called on an active agent that has been placed on a NavMesh.
+RenderTexture's (512 x 512) anti-aliasing changed from 3 to 2 due hardware limitations.
+RenderTexture's (512 x 512) anti-aliasing changed from 3 to 2 due hardware limitations.
+RenderTexture's (512 x 512) anti-aliasing changed from 3 to 2 due hardware limitations.
+RenderTexture's (512 x 512) anti-aliasing changed from 3 to 2 due hardware limitations.
+Disconnecting connId=0 to prevent exploits from an Exception in MessageHandler: KeyNotFoundException The given key was not present in the dictionary.
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item (TKey key) [0x0001e] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at NetworkFishingRod.UserCode_CmdHookFish () [0x0000c] in <4487cb8588544d218330839b3ed820f2>:0 
+  at NetworkFishingRod.InvokeUserCode_CmdHookFish (Mirror.NetworkBehaviour obj, Mirror.NetworkReader reader, Mirror.NetworkConnectionToClient senderConnection) [0x00016] in <4487cb8588544d218330839b3ed820f2>:0 
+  at Mirror.RemoteCalls.RemoteCallHelper.InvokeHandlerDelegate (System.Int32 cmdHash, Mirror.MirrorInvokeType invokeType, Mirror.NetworkReader reader, Mirror.NetworkBehaviour invokingType, Mirror.NetworkConnectionToClient senderConnection) [0x00019] in <bc3207b9557b4a6ab87679264c873d3e>:0 
+  at Mirror.NetworkIdentity.HandleRemoteCall (System.Int32 componentIndex, System.Int32 functionHash, Mirror.MirrorInvokeType invokeType, Mirror.NetworkReader reader, Mirror.NetworkConnectionToClient senderConnection) [0x00069] in <bc3207b9557b4a6ab87679264c873d3e>:0 
+  at Mirror.NetworkServer.OnCommandMessage (Mirror.NetworkConnection conn, Mirror.CommandMessage msg) [0x00084] in <bc3207b9557b4a6ab87679264c873d3e>:0 
+  at (wrapper delegate-invoke) System.Action`2[Mirror.NetworkConnection,Mirror.CommandMessage].invoke_void_T1_T2(Mirror.NetworkConnection,Mirror.CommandMessage)
+  at Mirror.MessagePacking+<>c__DisplayClass6_0`2[T,C].<WrapHandler>b__0 (Mirror.NetworkConnection conn, Mirror.NetworkReader reader, System.Int32 channelId) [0x0007a] in <bc3207b9557b4a6ab87679264c873d3e>:0 
+NullReferenceException: Object reference not set to an instance of an object
+  at FishingRodCastAndReel.castLine () [0x0008c] in <4487cb8588544d218330839b3ed820f2>:0 
+  at NetworkFishingRod+<controllRod>d__55.MoveNext () [0x001b7] in <4487cb8588544d218330839b3ed820f2>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) [0x00026] in <4fae2288737c4dfda349689bbefabfcc>:0 
+
+Disconnecting connId=0 to prevent exploits from an Exception in MessageHandler: NullReferenceException Object reference not set to an instance of an object
+  at NetworkFishingRod.UserCode_RpcDoCast () [0x00007] in <4487cb8588544d218330839b3ed820f2>:0 
+  at NetworkFishingRod.InvokeUserCode_RpcDoCast (Mirror.NetworkBehaviour obj, Mirror.NetworkReader reader, Mirror.NetworkConnectionToClient senderConnection) [0x00016] in <4487cb8588544d218330839b3ed820f2>:0 
+  at Mirror.RemoteCalls.RemoteCallHelper.InvokeHandlerDelegate (System.Int32 cmdHash, Mirror.MirrorInvokeType invokeType, Mirror.NetworkReader reader, Mirror.NetworkBehaviour invokingType, Mirror.NetworkConnectionToClient senderConnection) [0x00019] in <bc3207b9557b4a6ab87679264c873d3e>:0 
+  at Mirror.NetworkIdentity.HandleRemoteCall (System.Int32 componentIndex, System.Int32 functionHash, Mirror.MirrorInvokeType invokeType, Mirror.NetworkReader reader, Mirror.NetworkConnectionToClient senderConnection) [0x00069] in <bc3207b9557b4a6ab87679264c873d3e>:0 
+  at Mirror.NetworkClient.OnRPCMessage (Mirror.RpcMessage message) [0x00020] in <bc3207b9557b4a6ab87679264c873d3e>:0 
+  at (wrapper delegate-invoke) System.Action`1[Mirror.RpcMessage].invoke_void_T(Mirror.RpcMessage)
+  at Mirror.NetworkClient+<>c__DisplayClass51_0`1[T].<RegisterHandler>g__HandlerWrapped|0 (Mirror.NetworkConnection _, T value) [0x00000] in <bc3207b9557b4a6ab87679264c873d3e>:0 
+  at Mirror.MessagePacking+<>c__DisplayClass6_0`2[T,C].<WrapHandler>b__0 (Mirror.NetworkConnection conn, Mirror.NetworkReader reader, System.Int32 channelId) [0x0007a] in <bc3207b9557b4a6ab87679264c873d3e>:0 
+RenderTexture's (512 x 512) anti-aliasing changed from 3 to 2 due hardware limitations.
+RenderTexture's (512 x 512) anti-aliasing changed from 3 to 2 due hardware limitations.
+Can not play a disabled audio source
+RenderTexture's (512 x 512) anti-aliasing changed from 3 to 2 due hardware limitations.
+RenderTexture's (512 x 512) anti-aliasing changed from 3 to 2 due hardware limitations.
+RenderTexture's (512 x 512) anti-aliasing changed from 3 to 2 due hardware limitations.
+RenderTexture's (512 x 512) anti-aliasing changed from 3 to 2 due hardware limitations.
+RenderTexture's (512 x 512) anti-aliasing changed from 3 to 2 due hardware limitations.
+RenderTexture's (512 x 512) anti-aliasing changed from 3 to 2 due hardware limitations.
+RenderTexture's (512 x 512) anti-aliasing changed from 3 to 2 due hardware limitations.
+RenderTexture's (512 x 512) anti-aliasing changed from 3 to 2 due hardware limitations.
+RenderTexture's (512 x 512) anti-aliasing changed from 3 to 2 due hardware limitations.
+RenderTexture's (512 x 512) anti-aliasing changed from 3 to 2 due hardware limitations.
+STEAM - Leaving lobby 0
+STEAM - Disconnected
+ClientRpc RpcGetUp called on un-spawned object: NetworkMapSharer
+Transport shut down - was server.
+ArgumentException: Value does not fall within the expected range.
+  at NetworkMapSharer.OnDestroy () [0x00000] in <4487cb8588544d218330839b3ed820f2>:0 
+
+UnloadTime: 394.157000 ms
+Setting up 6 worker threads for Enlighten.
+  Thread -> id: 29b4 -> priority: 1 
+  Thread -> id: 2cb8 -> priority: 1 
+  Thread -> id: 7d8 -> priority: 1 
+  Thread -> id: 564 -> priority: 1 
+  Thread -> id: 2180 -> priority: 1 
+  Thread -> id: 120c -> priority: 1 
+Crash!!!
+SymInit: Symbol-SearchPath: '.;C:\Users\Administrator\Downloads\Dinkum.v1.0.2_LinkNeverDie.Com\Dinkum.v1.0.2_LinkNeverDie.Com;C:\Users\Administrator\Downloads\Dinkum.v1.0.2_LinkNeverDie.Com\Dinkum.v1.0.2_LinkNeverDie.Com;C:\windows;C:\windows\system32;', symOptions: 534, UserName: 'Administrator'
+OS-Version: 10.0.0
+C:\Users\Administrator\Downloads\Dinkum.v1.0.2_LinkNeverDie.Com\Dinkum.v1.0.2_LinkNeverDie.Com\Dinkum.exe:Dinkum.exe (00007FF6C3B50000), size: 675840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.48.1457
+C:\windows\SYSTEM32\ntdll.dll:ntdll.dll (00007FF92D210000), size: 2064384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5438
+C:\windows\System32\KERNEL32.DLL:KERNEL32.DLL (00007FF92CAF0000), size: 794624 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5438
+C:\windows\System32\KERNELBASE.dll:KERNELBASE.dll (00007FF92A940000), size: 3141632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5607
+C:\windows\SYSTEM32\apphelp.dll:apphelp.dll (00007FF927B70000), size: 606208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5438
+C:\Users\Administrator\Downloads\Dinkum.v1.0.2_LinkNeverDie.Com\Dinkum.v1.0.2_LinkNeverDie.Com\UnityPlayer.dll:UnityPlayer.dll (00007FF8EDF20000), size: 29442048 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.48.1457
+C:\windows\System32\USER32.dll:USER32.dll (00007FF92BB80000), size: 1691648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4717
+C:\windows\System32\win32u.dll:win32u.dll (00007FF92B200000), size: 139264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5607
+C:\windows\System32\GDI32.dll:GDI32.dll (00007FF92D140000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4474
+C:\windows\System32\gdi32full.dll:gdi32full.dll (00007FF92AF10000), size: 1155072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5438
+C:\windows\System32\msvcp_win.dll:msvcp_win.dll (00007FF92ACC0000), size: 643072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\windows\System32\ucrtbase.dll:ucrtbase.dll (00007FF92AD60000), size: 1048576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\windows\System32\ole32.dll:ole32.dll (00007FF92C960000), size: 1224704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5369
+C:\windows\SYSTEM32\VERSION.dll:VERSION.dll (00007FF924790000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\windows\System32\RPCRT4.dll:RPCRT4.dll (00007FF92C3C0000), size: 1191936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4957
+C:\windows\System32\msvcrt.dll:msvcrt.dll (00007FF92BA30000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.3636
+C:\windows\System32\combase.dll:combase.dll (00007FF92CDE0000), size: 3493888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5553
+C:\windows\System32\SHLWAPI.dll:SHLWAPI.dll (00007FF92CD30000), size: 348160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\windows\System32\SETUPAPI.dll:SETUPAPI.dll (00007FF92BED0000), size: 4657152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5369
+C:\windows\System32\cfgmgr32.dll:cfgmgr32.dll (00007FF92AC70000), size: 319488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3996
+C:\windows\System32\bcrypt.dll:bcrypt.dll (00007FF92AC40000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5369
+C:\windows\System32\ADVAPI32.dll:ADVAPI32.dll (00007FF92BAD0000), size: 716800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5438
+C:\windows\System32\sechost.dll:sechost.dll (00007FF92C810000), size: 651264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5072
+C:\windows\System32\SHELL32.dll:SHELL32.dll (00007FF92B230000), size: 7786496 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5553
+C:\windows\System32\OLEAUT32.dll:OLEAUT32.dll (00007FF92C620000), size: 839680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\windows\System32\IMM32.dll:IMM32.dll (00007FF92CD90000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4474
+C:\windows\System32\CRYPT32.dll:CRYPT32.dll (00007FF92B030000), size: 1425408 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5072
+C:\Users\Administrator\Downloads\Dinkum.v1.0.2_LinkNeverDie.Com\Dinkum.v1.0.2_LinkNeverDie.Com\WINMM.dll:WINMM.dll (00007FF908E10000), size: 598016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.2.0.0
+C:\windows\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FF924EA0000), size: 1089536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5438
+C:\windows\SYSTEM32\HID.DLL:HID.DLL (00007FF929100000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\windows\System32\WS2_32.dll:WS2_32.dll (00007FF92C350000), size: 438272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\windows\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FF928640000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\windows\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FF8FB340000), size: 1212416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5438
+C:\windows\SYSTEM32\GLU32.dll:GLU32.dll (00007FF9226B0000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Users\Administrator\Downloads\Dinkum.v1.0.2_LinkNeverDie.Com\Dinkum.v1.0.2_LinkNeverDie.Com\SteamCLientLoader64.dll:SteamCLientLoader64.dll (00007FF927F60000), size: 57344 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.0.0
+C:\windows\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FF903F50000), size: 577536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.42.34433.0
+C:\windows\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FF924590000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.42.34433.0
+C:\windows\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FF91C3D0000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.42.34433.0
+C:\windows\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FF928950000), size: 8011776 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5607
+C:\windows\SYSTEM32\Wldp.dll:Wldp.dll (00007FF92A2E0000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5553
+C:\windows\System32\SHCORE.dll:SHCORE.dll (00007FF92C570000), size: 708608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4522
+C:\windows\system32\WINMM.dll:WINMM.dll (00007FF91D780000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\windows\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FF928670000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3758
+C:\windows\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FF92A8B0000), size: 532480 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5007
+C:\windows\system32\uxtheme.dll:uxtheme.dll (00007FF928260000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4529
+C:\windows\SYSTEM32\profapi.dll:profapi.dll (00007FF92A7E0000), size: 151552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5553
+C:\Users\Administrator\Downloads\Dinkum.v1.0.2_LinkNeverDie.Com\Dinkum.v1.0.2_LinkNeverDie.Com\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FF8F3AD0000), size: 7860224 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\System32\PSAPI.DLL:PSAPI.DLL (00007FF92C500000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\windows\SYSTEM32\iphlpapi.dll:iphlpapi.dll (00007FF929C50000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\windows\System32\MSCTF.dll:MSCTF.dll (00007FF92C6F0000), size: 1134592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5438
+C:\windows\SYSTEM32\d3d11.dll:d3d11.dll (00007FF9268B0000), size: 2502656 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\windows\SYSTEM32\dxgi.dll:dxgi.dll (00007FF929140000), size: 1007616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5438
+C:\Windows\System32\DriverStore\FileRepository\nv_desktop_ref4i.inf_amd64_452f067e80ba0658\nvldumdx.dll:nvldumdx.dll (00007FF921780000), size: 794624 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.7283
+C:\windows\SYSTEM32\msasn1.dll:msasn1.dll (00007FF92A470000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\windows\SYSTEM32\cryptnet.dll:cryptnet.dll (00007FF924730000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\windows\SYSTEM32\cryptbase.dll:cryptbase.dll (00007FF92A180000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\windows\SYSTEM32\drvstore.dll:drvstore.dll (00007FF9243F0000), size: 1339392 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5369
+C:\windows\SYSTEM32\devobj.dll:devobj.dll (00007FF92A640000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\windows\System32\wintrust.dll:wintrust.dll (00007FF92B190000), size: 425984 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5553
+C:\windows\System32\imagehlp.dll:imagehlp.dll (00007FF92CDC0000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\windows\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FF92A160000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\windows\system32\rsaenh.dll:rsaenh.dll (00007FF929890000), size: 229376 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5553
+C:\Windows\System32\DriverStore\FileRepository\nv_desktop_ref4i.inf_amd64_452f067e80ba0658\nvgpucomp64.dll:nvgpucomp64.dll (00007FF917460000), size: 58302464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.7283
+C:\Windows\System32\DriverStore\FileRepository\nv_desktop_ref4i.inf_amd64_452f067e80ba0658\Display.NvContainer\NvMessageBus.dll:NvMessageBus.dll (00007FF8F1470000), size: 3551232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.15.3538.9611
+C:\Windows\System32\DriverStore\FileRepository\nv_desktop_ref4i.inf_amd64_452f067e80ba0658\NvMemMapStoragex.dll:NvMemMapStoragex.dll (00007FF920E60000), size: 880640 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\SYSTEM32\POWRPROF.dll:POWRPROF.dll (00007FF92A290000), size: 307200 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\windows\SYSTEM32\UMPDC.dll:UMPDC.dll (00007FF92A270000), size: 73728 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Windows\System32\DriverStore\FileRepository\nv_desktop_ref4i.inf_amd64_452f067e80ba0658\nvwgf2umx.dll:nvwgf2umx.dll (00007FF910010000), size: 87109632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.7283
+C:\windows\SYSTEM32\dxcore.dll:dxcore.dll (00007FF921CC0000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4474
+C:\Windows\System32\DriverStore\FileRepository\nv_desktop_ref4i.inf_amd64_452f067e80ba0658\nvppex.dll:nvppex.dll (00007FF8FBB20000), size: 1785856 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.7283
+C:\windows\System32\clbcatq.dll:clbcatq.dll (00007FF92C8B0000), size: 692224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
+C:\windows\system32\wbem\wbemprox.dll:wbemprox.dll (00007FF923F00000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4474
+C:\windows\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FF923E70000), size: 589824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\windows\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FF921D00000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4474
+C:\windows\system32\wbem\fastprox.dll:fastprox.dll (00007FF922300000), size: 1097728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\windows\SYSTEM32\amsi.dll:amsi.dll (00007FF91D730000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\windows\System32\MMDevApi.dll:MMDevApi.dll (00007FF924040000), size: 561152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5438
+C:\windows\SYSTEM32\AUDIOSES.DLL:AUDIOSES.DLL (00007FF906890000), size: 1576960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\windows\SYSTEM32\resourcepolicyclient.dll:resourcepolicyclient.dll (00007FF928330000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\windows\SYSTEM32\xinput1_4.dll:xinput1_4.dll (00007FF908DF0000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\windows\SYSTEM32\inputhost.dll:inputhost.dll (00007FF921080000), size: 1384448 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\windows\SYSTEM32\wintypes.dll:wintypes.dll (00007FF925CE0000), size: 1404928 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5369
+C:\windows\SYSTEM32\CoreUIComponents.dll:CoreUIComponents.dll (00007FF927330000), size: 3518464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\windows\SYSTEM32\CoreMessaging.dll:CoreMessaging.dll (00007FF9276D0000), size: 991232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5486
+C:\windows\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FF925970000), size: 1007616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.5369
+C:\windows\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FF929AE0000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\windows\SYSTEM32\dcomp.dll:dcomp.dll (00007FF926D20000), size: 1982464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4597
+C:\windows\SYSTEM32\textinputframework.dll:textinputframework.dll (00007FF9211E0000), size: 1019904 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5438
+C:\Users\Administrator\Downloads\Dinkum.v1.0.2_LinkNeverDie.Com\Dinkum.v1.0.2_LinkNeverDie.Com\Dinkum_Data\Plugins\x86_64\steam_api64.dll:steam_api64.dll (00007FF904F70000), size: 278528 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.28.18.86
+C:\windows\system32\mswsock.dll:mswsock.dll (00007FF929F70000), size: 442368 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5553
+C:\windows\System32\NSI.dll:NSI.dll (00007FF92C4F0000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\windows\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FF925710000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\windows\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FF91C040000), size: 1982464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\windows\SYSTEM32\SspiCli.dll:SspiCli.dll (00007FF92A790000), size: 204800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5369
+
+========== OUTPUTTING STACK TRACE ==================
+
+0x00007FF92BB8EF5C (USER32) CallWindowProcW
+0x00007FF92BB8E8CC (USER32) DispatchMessageW
+0x00007FF92BBA10C3 (USER32) SendMessageTimeoutW
+0x00007FF92D2B1374 (ntdll) KiUserCallbackDispatcher
+0x00007FF92B201064 (win32u) NtUserPeekMessage
+0x00007FF92BB8A333 (USER32) PeekMessageW
+0x00007FF92BB897D0 (USER32) PeekMessageA
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF8EE415D46)
+0x00007FF8EE415D46 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF8EE41AE12)
+0x00007FF8EE41AE12 (UnityPlayer) (function-name not available)
+0x00007FF8EE41BFBB (UnityPlayer) UnityMain
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF6C3B511F2)
+0x00007FF6C3B511F2 (Dinkum) (function-name not available)
+0x00007FF92CB07374 (KERNEL32) BaseThreadInitThunk
+0x00007FF92D25CC91 (ntdll) RtlUserThreadStart
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/ADMINI~1/AppData/Local/Temp/James Bendon/Dinkum/Crashes
